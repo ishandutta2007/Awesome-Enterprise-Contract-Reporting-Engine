@@ -4,7 +4,7 @@
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome List" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Contract-Reporting-Engine"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Enterprise-Contract-Reporting-Engine?style=flat-square&color=blue" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Contract-Reporting-Engine"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Enterprise-Contract-Reporting-Engine?style=flat-square&color=blue" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Contract-Reporting-Engine/fork"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Enterprise-Contract-Reporting-Engine?style=flat-square&color=teal" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Contract-Reporting-Engine/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -57,9 +57,9 @@ The table below benchmarks leading SaaS and enterprise platforms that power cont
 
 ## ⚡ Open-Source GitHub Projects
 
-Self-hosted, community-driven analytics platforms and semantic engines provide maximum data sovereignty, eliminating prohibitive per-seat licensing when querying sensitive contract databases. The projects below are sorted by **GitHub Star count in descending order**:
+Self-hosted, community-driven analytics platforms and semantic engines provide maximum data sovereignty, eliminating prohibitive per-seat licensing when querying sensitive contract databases. The projects below are sorted by **GitHub Stars_Count in descending order**:
 
-| Project | Stars | Description |
+| Project | GitHub_Stars | Description |
 |---|---|---|
 | **[Apache Superset](https://github.com/apache/superset)** | [![Stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers) | **The leading enterprise open-source BI platform.** Apache-2.0 licensed. Offers a rich web SQL editor (SQL Lab), a no-code visual chart builder, fine-grained role-based security (RBAC), and broad connectivity to any SQL database behind CLM systems. |
 | **[Metabase](https://github.com/metabase/metabase)** | [![Stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers) | **The fastest path to contract analytics for non-technical teams.** Free self-hosted edition with unlimited users, an intuitive visual query builder, and out-of-the-box connectors for PostgreSQL, MySQL, BigQuery, Snowflake, and Redshift. |
@@ -110,7 +110,7 @@ Contributions are welcome! Please follow these guidelines:
 1. Fork the repository.
 2. Update `README.md` following the existing tabular structure.
 3. For SaaS entries: ensure specific pricing, detailed free tier / trial limits, and verified company valuation/market cap metrics are included.
-4. For Open-Source entries: include the official GitHub star badge (`style=social&color=white`) linked to the repository's stargazers page.
+4. For Open-Source entries: include the official GitHub Stars_Badge (`style=social&color=white`) linked to the repository's stargazers page.
 5. Submit a pull request with a concise summary of the changes.
 
 ---
