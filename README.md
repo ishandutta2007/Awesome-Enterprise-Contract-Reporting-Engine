@@ -57,7 +57,7 @@ The table below benchmarks leading SaaS and enterprise platforms that power cont
 
 ## ⚡ Open-Source GitHub Projects
 
-Self-hosted, community-driven analytics platforms and semantic engines provide maximum data sovereignty, eliminating prohibitive per-seat licensing when querying sensitive contract databases. The projects below are sorted by **GitHub Stars_Count in descending order**:
+Self-hosted, community-driven analytics platforms and semantic engines provide maximum data sovereignty, eliminating prohibitive per-seat licensing when querying sensitive contract databases. The projects below are sorted by **GitHub_Stars_Count in descending order**:
 
 | Project | GitHub_Stars | Description |
 |---|---|---|
@@ -110,7 +110,7 @@ Contributions are welcome! Please follow these guidelines:
 1. Fork the repository.
 2. Update `README.md` following the existing tabular structure.
 3. For SaaS entries: ensure specific pricing, detailed free tier / trial limits, and verified company valuation/market cap metrics are included.
-4. For Open-Source entries: include the official GitHub Stars_Badge (`style=social&color=white`) linked to the repository's stargazers page.
+4. For Open-Source entries: include the official GitHub_Stars_Badge (`style=social&color=white`) linked to the repository's stargazers page.
 5. Submit a pull request with a concise summary of the changes.
 
 ---
