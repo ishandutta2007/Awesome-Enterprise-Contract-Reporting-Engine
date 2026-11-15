@@ -1,73 +1,98 @@
-# Awesome-Enterprise-Contract-Reporting-Engine
+# Awesome Enterprise Contract Reporting Engine [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+> A curated list of enterprise contract reporting engines, AI-driven contract analytics platforms, obligation intelligence software, and self-hosted open-source business intelligence (BI) systems.
 
 ## Top Enterprise Contract Reporting Engine Ecosystem
 
-**Curated List of SaaS Platforms & Open-Source GitHub Projects**  
-*Focused on Contract Analytics, Obligation Reporting & Self-Hosted BI Infrastructure*  
+**Curated Directory of Enterprise SaaS Solutions & Open-Source Projects**  
+*Focused on Contract Analytics, Obligation Compliance, Renewal Exposure, Spend Leakage & Self-Hosted BI Infrastructure*  
 **Last updated: March 2026**
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Enterprise Contract Reporting Engines**. These tools transform contract repositories into actionable intelligence—surfacing obligation compliance, renewal exposure, spend leakage, and risk trends—covering everything from purpose-built CLM reporting to general-purpose BI platforms that can query contract data.
-
-**Examples** include Icertis Reporting, SAP Crystal Reports, Microsoft Power BI, Tableau, Looker, Qlik Sense, Apache Superset, Metabase, and Redash (the category leaders).
-
-**Open-source emphasis**: This section highlights every major active project for self-hosted contract analytics, open-source BI platforms, and community-driven reporting infrastructure—ideal for organizations seeking data sovereignty and avoiding per-user enterprise licensing. The open-source landscape is genuinely functional: **Apache Superset** provides enterprise-grade BI with a SQL editor and no-code chart builder , **Metabase** offers the fastest path to contract reporting for non-technical users , and **Redash** delivers a lightweight SQL-first dashboarding experience .
-
-Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-
-| Product | Description | Pricing (Starting) | Free Tier / Trial Limits |
-|---------|-------------|-------------------|--------------------------|
-| **[Icertis Reporting](https://www.icertis.com/)** | Purpose-built contract reporting within the Icertis Contract Intelligence platform. **Enbridge case study**: centralized contract data with structured metadata enables obligation tracking, risk profiling, and **data-driven reporting** across the full contract lifecycle. Searchable repository provides visibility into "the full cycle of what we're selling versus what we're receiving" . Reporting is embedded in the platform—not a separate BI tool. | Quote-only (enterprise CLM contract) | No free tier; demo via sales |
-| **[SAP Crystal Reports](https://www.sap.com/)** | **The long-standing standard for pixel-perfect, print-ready operational reporting.** Pulls from SAP HANA, MySQL, MS-Access, and ODBC sources. **83% of users praise data connectivity**; **68% cite ease of creating formulas and graphs**. Export to PDF, documents, and spreadsheets with page-level control. **Trade-offs**: **76% of reviewers note a steep learning curve**, and **61% say it slows with large data pulls**. Pricing: **$495 one-time** (Freemium model) . | **$495** (one-time, freemium) | **Free trial** available; freemium tier exists |
-| **[Microsoft Power BI](https://powerbi.microsoft.com/)** | Microsoft's BI platform with desktop authoring and cloud publishing. Deep integration with Excel, Azure, and Microsoft 365. Power BI Embedded available for product teams . | Pro: **$14/user/month**; Premium Per User: $24/user/month | **Free**: Power BI Desktop (authoring only); **60-day trial** for Pro/Premium |
-| **[Tableau](https://www.tableau.com/)** | Visual analytics standard with drag-and-drop dashboards and extensive chart types. Strongest for analyst-driven visual exploration of contract data . | Quote-only (per-user licensing); Tableau Public free for public data | **Tableau Public**: free for publicly shared dashboards; **14-day trial** for full platform |
-| **[Looker (Google Cloud)](https://looker.com/)** | BI platform built around LookML semantic modeling. Governed self-service with consistent metric definitions—useful for standardizing contract KPIs across legal, finance, and procurement . | Quote-only (enterprise contract; Google Cloud billing) | No free tier; trial via Google Cloud sales |
-| **[Qlik Sense](https://www.qlik.com/)** | Associative analytics engine with in-memory data indexing. Positioned for exploratory analysis where users need to find unexpected relationships in contract data . | Quote-only (per-user or token-based) | No free tier; trial via sales |
-| **[Sisense](https://www.sisense.com/)** | BI platform focused on embedded analytics for product teams. Allows embedding contract dashboards directly into internal or customer-facing applications . | Quote-only (custom enterprise pricing) | No free tier; demo via sales |
-| **[Domo](https://www.domo.com/)** | Cloud BI platform with drag-and-drop dashboard builder and pre-built connectors. Consumption-based enterprise pricing . | Quote-only (consumption-based) | No free tier; demo via sales |
-| **[IBM Cognos Analytics](https://www.ibm.com/products/cognos-analytics)** | Enterprise BI with reporting, dashboards, and AI-assisted exploration. Long-standing platform for organizations with existing IBM investments. Users rate **ease of use 3.8/5** and **functionality 4.2/5** . | Quote-only (per-user or capacity-based) | No free tier; trial via IBM sales |
-| **[MicroStrategy](https://www.microstrategy.com/)** | Enterprise analytics and mobility platform. **Starting price $600 one-time** (Software Advice). **Data connectors rated 4.86/5** and **dashboard 4.86/5**, but **ease of use at 3.9/5**—users note the UI feels outdated . | **$600** (one-time, Software Advice) | No free tier; demo via sales |
-
-## Open-Source GitHub Projects
-
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[Apache Superset](https://github.com/apache/superset)** | [![Stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers) | **The most enterprise-ready open-source BI platform for contract reporting.** Apache-2.0. **No-code interface for building charts quickly** plus a **powerful web-based SQL Editor** for advanced contract queries . Lightweight semantic layer for defining custom dimensions and metrics (e.g., contract value, renewal window, obligation status). **Out-of-the-box support for nearly any SQL database**—including the databases behind most CLM systems. **Configurable caching layer** eases load on production contract repositories. **Extensible security roles** and an **API for programmatic customization** . **Best for organizations with engineering capacity** wanting a self-hosted BI platform that can query contract data directly without per-user licensing. |
-| **[Metabase](https://github.com/metabase/metabase)** | [![Stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers) | **The fastest path to contract reporting for business users.** Open-source edition is free with **unlimited users**. **Question builder lets non-technical users build reports without SQL**—legal ops and procurement teams can create contract dashboards themselves. **20+ database connectors** including PostgreSQL, MySQL, BigQuery, Snowflake, and Redshift. **Trade-off**: **embedding, SSO, and row-level security require the paid Pro/Enterprise plan** —for pure internal contract reporting, the free edition is often sufficient . **Best for teams wanting internal contract analytics quickly** without engineering involvement. |
-| **[Redash](https://github.com/getredash/redash)** | [![Stars](https://img.shields.io/github/stars/getredash/redash?style=social&color=white)](https://github.com/getredash/redash/stargazers) | **Lightweight SQL-first dashboarding for contract data.** Browser-based with **query editor and schema browser**. Create visualizations with drag-and-drop and combine into dashboards. **Schedule refreshes and define alerts** for contract KPIs (e.g., renewal approaching, obligation overdue). **REST API for everything in the UI**. Broad data source support including relational databases and REST APIs . **Trade-off**: less polished than Superset or Metabase for non-technical users, and development pace has slowed since Databricks acquisition (from prior research) . **Best for engineering teams wanting a simple SQL-to-dashboard pipeline** for contract reporting. |
-
-### Additional Strong Open-Source Options
-
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[Superset (Documentation)](https://superset.apache.org/user-docs/6.1.0/intro/)** | — | **Official Superset documentation** covering the no-code chart builder, SQL Editor, semantic layer, and security model . Use as the reference for deployment and configuration. |
-| **[Metabase (Paid Features)](https://www.metabase.com/paid-features)** | — | **Metabase Pro/Enterprise feature list**—useful for understanding what embedding, SSO, and advanced permissions cost if contract reporting needs to be exposed to external parties . |
-
-**Frameworks for building custom systems**: Choose **Apache Superset** for enterprise-grade self-hosted BI with SQL flexibility and semantic modeling , **Metabase** for the fastest path to internal contract reporting with non-technical users , or **Redash** for lightweight SQL-first dashboards —all without per-user licensing that compounds across legal, finance, and procurement teams.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Contract reporting engines handle sensitive commercial terms and obligations; enforce role-based access, audit logging, and compliance with applicable data protection regulations. **Reporting on contract data can expose negotiation positions and pricing.**
-- **Purpose-built contract reporting vs. general-purpose BI is a key distinction.** **Icertis Reporting is embedded in the CLM platform**—it understands contract metadata and obligation structures natively, but requires the full Icertis subscription . **General-purpose BI platforms** (Power BI, Tableau, Looker, Superset, Metabase) can query contract data **if you have access to the underlying database or a synced data warehouse**—they do not understand contract semantics out of the box . **Open-source BI is genuinely viable for contract reporting**: Superset provides enterprise features with zero licensing costs , Metabase makes non-technical users productive quickly , and Redash offers SQL-first simplicity . **SAP Crystal Reports remains relevant for pixel-perfect operational reports** (e.g., obligation notices, renewal letters) where BI dashboards are insufficient, but its learning curve is steep . **Validate whether you need embedded CLM reporting (Icertis), pixel-perfect operational reports (Crystal), or flexible analytical dashboards (Superset/Metabase)** before committing.
+This repository tracks notable **enterprise SaaS platforms** and **open-source analytics engines** for **Enterprise Contract Reporting**. These tools transform unstructured contract repositories and CLM data warehouses into actionable business intelligence—surfacing obligation compliance, renewal exposure, spend leakage, SLA metrics, and legal risk trends. The landscape spans purpose-built CLM reporting modules to modern semantic BI platforms and SQL query engines.
 
 ---
 
-**Made for legal ops analysts, contract managers, and data teams building contract analytics infrastructure.**  
-Let's make enterprise contract reporting more open, flexible, and cost-predictable.
+## Table of Contents
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [Enterprise SaaS Platforms](#enterprise-saas-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [Key Architectural Distinction: CLM vs. BI Engine](#key-architectural-distinction-clm-vs-bi-engine)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
+
+---
+
+## Sector Overview & Market Dynamics
+
+The global Contract Lifecycle Management (CLM) and contract analytics software sector is estimated at **.0B to .6B (2025–2026)** and expanding at a compound annual growth rate (CAGR) of **12% to 14%**, driven by large-scale enterprise adoption of AI obligation auditing, automated clause extraction, and regulatory compliance. The market is **moderately fragmented with accelerating platform consolidation**—characterized by a long tail of 150+ niche legaltech and vertical-specific point solutions alongside enterprise software giants (Microsoft, Alphabet/Google Cloud, Salesforce, SAP, IBM) that are consolidating core analytics layers to deliver end-to-end operational intelligence.
+
+---
+
+## Enterprise SaaS Platforms
+
+The table below benchmarks leading SaaS and enterprise platforms that power contract analytics and reporting, sorted by **company scale (Market Capitalization / Valuation / Revenue) in descending order**:
+
+| Product | Company Size (Market Cap / Valuation / Revenue) | Description | Starting Price | Free Tier / Trial Limits |
+|---|---|---|---|---|
+| **[Microsoft Power BI](https://powerbi.microsoft.com/)** | **.89T Market Cap** (+ ARR) | Microsoft's enterprise BI platform with desktop modeling and cloud publishing. Deep integration with Microsoft 365, SharePoint contract repositories, and Azure Synapse. Power BI Embedded powers customer-facing contract dashboards. | **/user/month** (Power BI Pro, billed annually) | **Free forever**: Power BI Desktop (free for authoring and local report creation); **60-day free trial** for Power BI Pro and Premium Per User (PPU) |
+| **[Looker (Google Cloud)](https://looker.com/)** | **.64T Parent Market Cap** (Acquired for .6B) | Enterprise semantic data modeling platform built around LookML. Delivers governed self-service with unified contract metric definitions (e.g., ARR, TCV, renewal deadlines) across legal, procurement, and finance. | **,000/month** (~,000/year standard platform baseline); **/user/month** for Looker Studio Pro | **Looker Studio**: Free forever for basic cloud data visualization; **30-day free trial** for Looker Studio Pro; Custom sandbox PoC evaluation via Google Cloud sales |
+| **[SAP Crystal Reports](https://www.sap.com/)** | ** Market Cap** (+ ARR) | The industry standard for pixel-perfect, print-ready operational reporting and obligation notices. Directly connects to SAP HANA, MySQL, Oracle, MS Access, and ODBC sources with page-level layout control. | **** (one-time desktop perpetual license) | **30-day free trial** with full report creation, data connectivity, and export functionality |
+| **[IBM Cognos Analytics](https://www.ibm.com/products/cognos-analytics)** | ** Market Cap** (+ ARR) | Enterprise BI suite providing automated reporting, AI-assisted exploration, and operational dashboards. Tailored for enterprise organizations with strict data governance and existing IBM deployments. | **.60/user/month** (Standard Cloud tier) | **30-day free trial** for cloud multi-user environment with premium reporting modules |
+| **[Tableau](https://www.tableau.com/)** | ** Parent Market Cap** (Salesforce; Acquired for .7B) | Leading visual analytics platform known for intuitive drag-and-drop dashboards and exploratory data analysis across complex contract and legal operational datasets. | **/user/month** (Tableau Viewer, billed annually; Creator license starting at /user/month) | **Tableau Public**: Free forever (public web publishing only); **14-day free trial** for Tableau Cloud Creator tier |
+| **[MicroStrategy](https://www.microstrategy.com/)** | **~ Market Cap** ( ARR) | High-performance enterprise intelligence platform (MicroStrategy ONE) featuring governed semantic graphs, enterprise-grade mobile dossiers, and embedded contract analytics. | **/user/month** (Standard Cloud tier for authoring and analytics consumption) | **30-day free trial** with access to MicroStrategy Cloud Standard authoring environment |
+| **[Qlik Sense](https://www.qlik.com/)** | **+ Valuation** (Thoma Bravo; ~+ ARR) | Associative analytics engine with in-memory calculation. Uncovers non-obvious relationships across multi-vendor agreements, supplier contracts, and pricing obligations without fixed query paths. | **/month** (Starter tier billed annually; includes 10 users and 10 GB data capacity) | **30-day free trial** with full access to Qlik Cloud Analytics features |
+| **[Icertis Reporting](https://www.icertis.com/)** | **.5B Valuation** (+ ARR) | Purpose-built contract reporting and obligation intelligence engine embedded inside the Icertis Contract Intelligence (ICI) enterprise CLM platform. Provides native metadata schemas and clause-level compliance tracking. | **/user/month** (Estimated baseline; typical deployments start at ,000–,000+ ACV) | **No free-forever tier**; Proof-of-concept (PoC) sandbox trial provided upon sales qualification (typically 14–30 days) |
+| **[Sisense](https://www.sisense.com/)** | **.0B Valuation** (~ ARR) | Cloud-native embedded analytics engine designed for product and engineering teams to embed white-label contract reporting dashboards directly into portals and B2B SaaS workflows. | **,083/month** (~,000/year entry-level self-serve contract tier) | **7-day free trial** for self-serve cloud dashboarding and developer playground |
+| **[Domo](https://www.domo.com/)** | ** Market Cap** (~ ARR) | Full-stack cloud BI and data integration platform with pre-built data pipeline connectors, automated alert triggers, and mobile-first contract executive reporting dashboards. | **,500/month** (~,000/year consumption-credit baseline) | **30-day free trial** with credit allocation and unlimited user seats |
+
+---
+
+## Open-Source GitHub Projects
+
+Self-hosted, community-driven analytics platforms and semantic engines provide maximum data sovereignty, eliminating prohibitive per-seat licensing when querying sensitive contract databases. The projects below are sorted by **GitHub Star count in descending order**:
+
+| Project | Stars | Description |
+|---|---|---|
+| **[Apache Superset](https://github.com/apache/superset)** | [![Stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers) | **The leading enterprise open-source BI platform.** Apache-2.0 licensed. Offers a rich web SQL editor (SQL Lab), a no-code visual chart builder, fine-grained role-based security (RBAC), and broad connectivity to any SQL database behind CLM systems. |
+| **[Metabase](https://github.com/metabase/metabase)** | [![Stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers) | **The fastest path to contract analytics for non-technical teams.** Free self-hosted edition with unlimited users, an intuitive visual query builder, and out-of-the-box connectors for PostgreSQL, MySQL, BigQuery, Snowflake, and Redshift. |
+| **[Redash](https://github.com/getredash/redash)** | [![Stars](https://img.shields.io/github/stars/getredash/redash?style=social&color=white)](https://github.com/getredash/redash/stargazers) | **Lightweight SQL-first dashboarding and automated alerting.** Browser-based schema explorer, customizable visualizations, scheduled data refreshes, REST API automation, and triggers on expiring contract terms. |
+| **[Cube](https://github.com/cube-js/cube)** | [![Stars](https://img.shields.io/github/stars/cube-js/cube?style=social&color=white)](https://github.com/cube-js/cube/stargazers) | **Universal semantic layer engine for contract analytics and metrics modeling.** Centrally manages contract calculations (ACV, ARR, renewal windows, obligation fulfillment) and exposes them through SQL and REST APIs to any BI front end. |
+| **[Evidence](https://github.com/evidence-dev/evidence)** | [![Stars](https://img.shields.io/github/stars/evidence-dev/evidence?style=social&color=white)](https://github.com/evidence-dev/evidence/stargazers) | **Code-driven business intelligence and markdown-based reporting.** Build version-controlled, audit-ready contract reporting websites and PDF summaries using pure SQL and Markdown. |
+| **[Lightdash](https://github.com/lightdash/lightdash)** | [![Stars](https://img.shields.io/github/stars/lightdash/lightdash?style=social&color=white)](https://github.com/lightdash/lightdash/stargazers) | **Open-source Looker alternative built natively on dbt.** Empowers data teams to define contract reporting metrics directly inside dbt models and deliver governed self-service dashboards to business stakeholders. |
+| **[Rill](https://github.com/rilldata/rill)** | [![Stars](https://img.shields.io/github/stars/rilldata/rill?style=social&color=white)](https://github.com/rilldata/rill/stargazers) | **Fast operational BI and real-time exploratory dashboarding powered by DuckDB.** Delivers sub-second queries and interactive dimension slicing across large contract repositories and spend datasets. |
+
+---
+
+## Key Architectural Distinction: CLM vs. BI Engine
+
+Choosing the right reporting architecture depends on whether your organization requires native contract schema intelligence, pixel-perfect operational notices, or cross-database analytical dashboards:
+
+1. **Native Embedded CLM Reporting (e.g., Icertis):**  
+   Understands contract hierarchies (master services agreements, amendments, statements of work), clause variants, obligation timelines, and user permissions natively. Requires an enterprise CLM subscription.
+2. **General-Purpose & Open-Source BI (e.g., Apache Superset, Metabase, Power BI, Looker):**  
+   Connects to contract data warehouses, lakehouses, or relational application databases. Offers flexible cross-departmental correlation (linking legal contracts with ERP spend and CRM pipeline), but requires defining semantic metrics manually.
+3. **Pixel-Perfect Operational Reporting (e.g., SAP Crystal Reports):**  
+   Essential for generating formatted audit reports, formal renewal reminders, and regulatory obligation packages that must match exact print or PDF page constraints.
+
+---
+
+## How to Contribute
+
+Contributions are welcome! Please follow these guidelines:
+
+1. Fork the repository.
+2. Update README.md following the existing tabular structure.
+3. For SaaS entries: ensure specific pricing, detailed free tier / trial limits, and verified company valuation/market cap metrics are included.
+4. For Open-Source entries: include the official GitHub star badge (style=social&color=white) linked to the repository's stargazers page.
+5. Submit a pull request with a concise summary of the changes.
+
+---
+
+## Disclaimer
+
+- This is a community-curated repository intended for research, architectural evaluation, and legal ops benchmarking.
+- Commercial contract terms, obligations, and pricing data represent sensitive corporate assets; always enforce proper role-based access control (RBAC), data encryption, and compliance with data sovereignty regulations.
+
+---
+
+**Built for legal ops analysts, procurement leaders, and data engineering teams developing contract intelligence infrastructure.**
