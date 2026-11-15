@@ -1,6 +1,6 @@
 # Awesome-Enterprise-Contract-Reporting-Engine
 
-# Top Enterprise Contract Reporting Engine Ecosystem
+## Top Enterprise Contract Reporting Engine Ecosystem
 
 **Curated List of SaaS Platforms & Open-Source GitHub Projects**  
 *Focused on Contract Analytics, Obligation Reporting & Self-Hosted BI Infrastructure*  
